@@ -1,3 +1,5 @@
+package ch04;
+
 import java.util.*;
 
 class FlowEx5 {
