@@ -74,6 +74,7 @@ public class dfdfdfdfdfd {
 		System.out.println(board[5][3]);
 		System.out.println(board[5][1]);
 		System.out.println(board[6][1]);
+//		dfd
 
 	} // main
 
