@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="ch02/|ch04/|ch06/|ch08/|ch11/|ch13/|ch15/|ch03/|ch05/|ch07/|ch09/|ch10/|ch12/|ch14/|ch16/" kind="src" path="Java_jungsuk_practice/src_EX"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch02"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch03"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch04"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch05"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch06"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch07"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch08"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch09"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch10"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch11"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch12"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch13"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch14"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch15"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_EX/ch16"/>
+	<classpathentry kind="src" path="Java_jungsuk_practice/src_Practice"/>
+	<classpathentry kind="output" path="Java_jungsuk_practice/bin"/>
+</classpath>
