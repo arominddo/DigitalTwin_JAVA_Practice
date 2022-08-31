@@ -29,7 +29,7 @@ public class factoto {
 		int sp = 0;
 		
 		
-		
+		 
 		for (int i = 0; i<word_li.length; i++) {
 			
 			String word = word_li[i];
