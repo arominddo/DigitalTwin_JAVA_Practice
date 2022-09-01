@@ -64,7 +64,7 @@ public class board_1 {
 								System.out.println("                     안녕히가세요.\n");
 								System.out.println("---------------------------------------------------");
 								System.out.println("---------------------------------------------------\n");
-								break Loop1;
+								break Loop2;
 							case 2 :
 								System.out.println("                  ------------------");
 								System.out.println("                        회원가입    ");
@@ -122,7 +122,7 @@ public class board_1 {
 										
 										System.out.println("");
 										System.out.println("*** ID가 생성되었습니다. ***");
-										System.out.printf("*** %s님 환영합니다!!! ***\n \n", ID_List[id_num][1]);
+										System.out.printf("*** %s님 환영합니다!!! ***\n \n", ID_List[id_num][0]);
 										System.out.println("");
 										id_num = 0; // id_num 초기화
 										continue Loop2;
