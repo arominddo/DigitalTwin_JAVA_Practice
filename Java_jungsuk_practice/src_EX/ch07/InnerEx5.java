@@ -1,3 +1,5 @@
+//package ch07;
+//
 //class Outer {
 //	int value=10;	// Outer.this.value				
 //

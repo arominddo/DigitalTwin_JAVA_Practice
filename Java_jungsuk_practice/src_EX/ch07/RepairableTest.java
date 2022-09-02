@@ -1,3 +1,5 @@
+//package ch07;
+//
 //class RepairableTest{
 //	public static void main(String[] args) {
 //		Tank tank = new Tank();
@@ -8,9 +10,21 @@
 //
 //		scv.repair(tank);	// SCV가 Tank를 수리하도록 한다.
 //		scv.repair(dropship);
-////		scv.repair(marine);	
+//		scv.repair(marine);	
 //	}
 //}
+//
+////class LiftableImpl implements Liftable { }
+////
+////class Barrack extends Building implements Liftable {
+////	LiftableImple l = new LiftableImpl();
+////	
+////	void liftoff() {
+////		l.liftoff();
+////	}
+////}
+////
+////interface Liftable {}
 //
 //interface Repairable {}
 //class GroundUnit extends Unit {
@@ -58,7 +72,9 @@
 //	//...
 //}
 //
-//class Marine extends GroundUnit {
+//class Marine extends GroundUnit
+//								implements Repairable
+//														{
 //	Marine() {
 //		super(40);
 //		hitPoint = MAX_HP;
@@ -84,3 +100,19 @@
 //	}	
 //	//...
 //}
+//
+///*
+// 
+// 
+// 
+//marine 객체 : Marine, GroundUnit, Unit, Objext
+//tank 객체 : Tank, GroundUnit, Unit, Object, Repairable
+//dropship 객체 : Dropship, AirUnit, Unit, Object, REpairable
+//barraks 객체 : Building, Construct, Object, Repairalbe
+//
+// 
+// 
+// 
+// 
+// 
+// */

@@ -1,3 +1,5 @@
+//package ch07;
+//
 // class A {
 //    void autoPlay(I i) {
 //          i.play();
@@ -25,5 +27,21 @@
 //		A a = new A();
 //		a.autoPlay(new B()); // void autoPlay(I i)호출
 //		a.autoPlay(new C()); // void autoPlay(I i)호출
+//	}
+//}
+//
+//
+//class x {
+//	void play() {
+//		System.out.println("x가 플레이");
+//	}
+//}
+//
+//
+//class z {
+//	public static void main(String[] argsd) {
+//		x a = new x();
+//		a.play();
+//		
 //	}
 //}
