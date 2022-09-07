@@ -1,3 +1,5 @@
+package ch08;
+
 import java.io.*;
 
 class ExceptionEx15 {

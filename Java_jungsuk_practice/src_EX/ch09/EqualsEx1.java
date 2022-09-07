@@ -1,3 +1,5 @@
+package ch09;
+
 class EqualsEx1 {
 	public static void main(String[] args) {
 		Value v1 = new Value(10);
