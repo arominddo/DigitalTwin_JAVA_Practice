@@ -54,27 +54,7 @@ public class dfdfdfdfdfd {
 //		
 //		Loop2: while()
 		
-		String[][] board = new String[10][5];
-		
-		for (int i = 0; i < board.length; i++) {
-			for (int j = 0; j<board[i].length; j++) {
-				board[i][j] = "ff";
-			}
-		}
-		board[5][1] = null;
-		board[5] = null;
-		
-//		System.out.println(board[5][3]);
-//		System.out.println(board[5][1]);
-//		System.out.println(board[6][1]);
-		
-		board[5] = new String[5];
-		board[5][3] = "asdg";
-		
-		System.out.println(board[5][3]);
-		System.out.println(board[5][1]);
-		System.out.println(board[6][1]);
-//		dfd
+		Vector
 
 	} // main
 
