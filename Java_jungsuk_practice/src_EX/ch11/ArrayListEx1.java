@@ -1,3 +1,5 @@
+package ch11;
+
 import java.util.*;
 
 class ArrayListEx1{
