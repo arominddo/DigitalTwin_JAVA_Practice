@@ -1,4 +1,7 @@
+package ch11;
+
 import java.util.*;
+import java.util.function.UnaryOperator;
 
 public class MyVector implements List {
 	Object[] data = null;	// 객체를 담기 위한 객체배열을 선언한다.
@@ -124,7 +127,7 @@ public class MyVector implements List {
 	public ListIterator listIterator(int index){ return null; }
 	public List subList(int fromIndex, int toIndex){ return null; }
 
-	default void sort(Comparator c) { /* 내용생략 */ }                     // JDK1.8부터
-	default Spliterator spliterator() { /* 내용생략 */ }                  // JDK1.8부터
-	default void replaceAll(UnaryOperator operator){/* 내용생략 */} //JDK1.8부터
+//	public default void sort(Comparator c) { /* 내용생략 */ }                     // JDK1.8부터
+//	public default Spliterator spliterator() { /* 내용생략 */ }                  // JDK1.8부터
+//	default void replaceAll(UnaryOperator operator){/* 내용생략 */} //JDK1.8부터
 }

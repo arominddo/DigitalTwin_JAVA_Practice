@@ -1,5 +1,8 @@
+package ch11;
+
 import java.util.*;
 
+@SuppressWarnings({" rawtypes" })
 public class MyVector2 extends MyVector implements Iterator {
 	int cursor  = 0;
 	int lastRet = -1;
